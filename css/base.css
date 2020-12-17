@@ -83,8 +83,6 @@ a:link {
   text-align: center;
   text-decoration: 0;
 }
-.social-media {
-}
 
 @media (max-width: 1100px) {
   .container {
@@ -100,8 +98,13 @@ a:link {
   .header {
     font-size: 0px;
   }
+
   .aside {
     padding: 0px;
+  }
+
+  .main {
+    padding: 30px;
   }
 }
 
