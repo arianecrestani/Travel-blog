@@ -1,0 +1,52 @@
+.content-box {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: repeat(3, 400px);
+  vertical-align: middle;
+  justify-content: center;
+}
+.imgPost {
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  filter: contrast(0.5);
+}
+
+.imgPost:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+#post-1 {
+  background-image: url("../images/freiburg1.jpg");
+}
+#post-2 {
+  background-image: url("../images/freiburg2.jpg");
+}
+#post-3 {
+  background-image: url("../images/titisee4.jpg");
+}
+#post-4 {
+  background-image: url("../images/titisee12.jpg");
+}
+#post-5 {
+  background-image: url("../images/triberg1.jpg");
+}
+#post-6 {
+  background-image: url("../images/badenbaden.jpg");
+}
+
+.title {
+  padding: 100px 2em 0em;
+  font-size: 50px;
+  font-family: fantasy;
+  color: white;
+}
+@media (max-width: 1200px) {
+  .content-box {
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(6, 400px);
+  }
+}
