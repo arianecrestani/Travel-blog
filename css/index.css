@@ -48,7 +48,7 @@
 
 @media (max-width: 1200px) {
   .content-box {
-    grid-template-columns: repeat(1, 400px);
-    grid-template-rows: repeat(6, 400px);
+    grid-template-columns: repeat(1, 370px);
+    grid-template-rows: repeat(6, 370px);
   }
 }
