@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-rows: 50vh auto 10vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "hd hd hd hd"
+    "main main main sd"
+    "ft ft ft ft";
+}

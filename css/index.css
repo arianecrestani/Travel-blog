@@ -6,6 +6,7 @@
   vertical-align: middle;
   justify-content: center;
 }
+
 .imgPost {
   vertical-align: middle;
   background-size: 100%;
@@ -44,6 +45,7 @@
   font-family: fantasy;
   color: white;
 }
+
 @media (max-width: 1200px) {
   .content-box {
     grid-template-columns: repeat(1, 400px);

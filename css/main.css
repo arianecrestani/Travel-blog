@@ -1,0 +1,11 @@
+.main {
+  background: #fff;
+  grid-area: main;
+  padding: 70px;
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+li {
+  line-height: 1.5;
+}

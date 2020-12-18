@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+  background-color: #fff;
+  color: black;
+  padding: 0px 2em 0em;
+  border-bottom: 10px solid black;
+  font-size: 30px;
+  text-transform: uppercase;
+  grid-area: hd;
+}
