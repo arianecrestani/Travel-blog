@@ -1,0 +1,21 @@
+.bio {
+  display: flex;
+  flex-flow: wrap;
+  gap: 30px;
+  width: 100%;
+  height: auto;
+}
+.avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+.social-media {
+  width: 20px;
+  height: 20px;
+  background-size: 30px;
+}

@@ -30,3 +30,16 @@ em {
 figcaption {
   text-align: center;
 }
+.like-button {
+  border: none;
+  color: black;
+  background-color: pink;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.like-button:hover {
+  background-color: black;
+  color: pink;
+}
