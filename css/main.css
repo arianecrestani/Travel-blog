@@ -9,3 +9,24 @@
 li {
   line-height: 1.5;
 }
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+}
+em {
+  text-decoration: underline;
+}
+.image-post {
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30;
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
