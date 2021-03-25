@@ -6,4 +6,3 @@ This project requires you to utilize your HTML and CSS skills to build out a per
 
 
 
-![logo](https://user-images.githubusercontent.com/67700408/112503697-705c4d80-8d8b-11eb-94bf-4d91a379b128.jpg)
